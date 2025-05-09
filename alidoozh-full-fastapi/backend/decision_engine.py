@@ -1,2 +1,7 @@
-def decide_final_signal(mlp, drl, volume, state, sentiment, whale):
-    return {"final_signal": "buy", "score": 0.88}
+from signal_engine import get_signals
+
+def get_final_signal():
+    s = get_signals()
+    if s["mlp"] == s["drl"]:
+        return s["mlp"]
+    return "hold"

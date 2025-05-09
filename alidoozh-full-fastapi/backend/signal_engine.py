@@ -1,2 +1,2 @@
-def generate_signal(data):
-    return {"signal": "buy", "score": 0.91}
+def get_signals():
+    return {"mlp": "buy", "drl": "sell"}

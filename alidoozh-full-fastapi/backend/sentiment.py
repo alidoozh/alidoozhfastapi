@@ -1,2 +1,2 @@
-def get_sentiment_score():
-    return 0.7
+def get_sentiment():
+    return {"sentiment": "positive", "score": 0.7}

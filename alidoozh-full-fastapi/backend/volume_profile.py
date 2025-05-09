@@ -1,2 +1,2 @@
-def analyze_volume(data):
-    return {"high_volume_zones": [27000, 28000]}
+def get_volume_profile():
+    return {"profile": "high_volume_node"}

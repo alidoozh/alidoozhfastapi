@@ -1,2 +1,2 @@
-def detect_market_state(data):
-    return "trending"
+def get_market_state():
+    return {"trend": "bullish"}

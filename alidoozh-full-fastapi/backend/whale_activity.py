@@ -1,2 +1,2 @@
-def check_whale_activity(data):
-    return "inflow"
+def get_whale_activity():
+    return {"whales": "active"}

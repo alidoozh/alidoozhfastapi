@@ -1,2 +1,3 @@
-def predict_with_mlp(data):
-    return "buy"
+class MLPModel:
+    def predict(self):
+        return {"prediction": "buy", "confidence": 0.88}
